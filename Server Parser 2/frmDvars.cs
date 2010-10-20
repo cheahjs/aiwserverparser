@@ -21,9 +21,18 @@ namespace Server_Parser_2
 
         private void frmDvars_Load(object sender, EventArgs e)
         {
-            this.Text = "Server Dvars (" + mainForm.selectedIP + ")";
-            selectedIP = mainForm.selectedIP.Remove(mainForm.selectedIP.Length - 6);
-            serverdvars = mainForm.serverdvars;
+            if (mainForm.activated)
+            {
+                this.Text = "Server Dvars (" + mainForm.selectedIP + ")";
+                selectedIP = mainForm.selectedIP.Remove(mainForm.selectedIP.Length - 6);
+                serverdvars = mainForm.serverdvars;
+            }
+            else
+            {
+                this.Text = "Server Dvars (" + frmDedi.selectedIP + ")";
+                selectedIP = frmDedi.selectedIP.Remove(frmDedi.selectedIP.Length - 6);
+                serverdvars = frmDedi.serverdvars;
+            }
             populateList();
         }
 
