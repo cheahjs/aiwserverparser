@@ -35,6 +35,7 @@
             this.ip = new System.Windows.Forms.ColumnHeader();
             this.map = new System.Windows.Forms.ColumnHeader();
             this.players = new System.Windows.Forms.ColumnHeader();
+            this.gametype = new System.Windows.Forms.ColumnHeader();
             this.mod = new System.Windows.Forms.ColumnHeader();
             this.ping = new System.Windows.Forms.ColumnHeader();
             this.status = new System.Windows.Forms.ColumnHeader();
@@ -65,7 +66,7 @@
             this.btnStop = new System.Windows.Forms.Button();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.label8 = new System.Windows.Forms.Label();
-            this.gametype = new System.Windows.Forms.ColumnHeader();
+            this.btnSwitchDedi = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // serverList
@@ -115,6 +116,11 @@
             // 
             this.players.Text = "Players";
             this.players.Width = 55;
+            // 
+            // gametype
+            // 
+            this.gametype.Text = "Game Type";
+            this.gametype.Width = 74;
             // 
             // mod
             // 
@@ -380,12 +386,17 @@
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(28, 13);
             this.label8.TabIndex = 21;
-            this.label8.Text = "2.04";
+            this.label8.Text = "2.05";
             // 
-            // gametype
+            // btnSwitchDedi
             // 
-            this.gametype.Text = "Game Type";
-            this.gametype.Width = 74;
+            this.btnSwitchDedi.Location = new System.Drawing.Point(399, 257);
+            this.btnSwitchDedi.Name = "btnSwitchDedi";
+            this.btnSwitchDedi.Size = new System.Drawing.Size(75, 23);
+            this.btnSwitchDedi.TabIndex = 22;
+            this.btnSwitchDedi.Text = "Dedicated";
+            this.btnSwitchDedi.UseVisualStyleBackColor = true;
+            this.btnSwitchDedi.Click += new System.EventHandler(this.btnSwitchDedi_Click);
             // 
             // mainForm
             // 
@@ -393,6 +404,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(921, 321);
+            this.Controls.Add(this.btnSwitchDedi);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.btnStop);
             this.Controls.Add(this.lblServerCount);
@@ -416,10 +428,10 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.serverList);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.MaximizeBox = false;
             this.MinimumSize = new System.Drawing.Size(842, 357);
             this.Name = "mainForm";
             this.Text = "Server List Parser 2";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.mainForm_FormClosing);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -463,6 +475,7 @@
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.ColumnHeader gametype;
+        private System.Windows.Forms.Button btnSwitchDedi;
     }
 }
 

@@ -66,6 +66,7 @@ new Type[] {
         public static string selectedIP;
         public int servercount;
         private ListViewSortManager m_sortMgr;
+        public static bool activated;
 
         //////////
         //events//
@@ -88,7 +89,6 @@ new Type[] {
             }
             ipQuery.Text = selectedIP;
             displayPlayers(selectedIP);
-            //TODO:Display server players for selected server
         }
 
         private void btnCopy_Click(object sender, EventArgs e)
@@ -113,7 +113,8 @@ new Type[] {
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-            displayPlayers(selectedIP);
+            if (selectedIP != "")
+                displayPlayers(selectedIP);
             multiClear();
             initQuerys();
         }
@@ -128,6 +129,19 @@ new Type[] {
             ListViewItem lvItem = serverList.Items.Add("", 0);
             lvItem.SubItems.Add(txtAddIP.Text);
             connectips.Add(txtAddIP.Text);
+        }
+
+        private void btnSwitchDedi_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            frmDedi form = new frmDedi();
+            form.Show();
+            activated = false;
+        }
+
+        private void mainForm_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit();
         }
         ///////////////////////////
         //dobackgroundworkerstuff//
@@ -242,19 +256,19 @@ new Type[] {
                         parseBytes(returnData, args2[0], port);
                         udpClient.Close();
                     }
-                    catch (Exception e)
+                    catch
                     {
                         udpClient.Close();
                         parseBytes("failed", args2[0], port);
                     }
                 }
-                catch (Exception e)
+                catch
                 {
                     udpClient.Close();
                     parseBytes("failed", args2[0], port);
                 }
             }
-            catch (Exception e)
+            catch
             {
             }
         }
@@ -280,19 +294,19 @@ new Type[] {
                         parseBytes(returnData, args2[0], port);
                         udpClient.Close();
                     }
-                    catch (Exception e)
+                    catch
                     {
                         udpClient.Close();
                         parseBytes("failed", args2[0], port);
                     }
                 }
-                catch (Exception e)
+                catch
                 {
                     udpClient.Close();
                     parseBytes("failed", args2[0], port);
                 }
             }
-            catch (Exception e)
+            catch
             {
             }
         }
@@ -549,17 +563,17 @@ new Type[] {
                         parsePing(returnData, args2[0]);
                         udpClient.Close();
                     }
-                    catch (Exception e)
+                    catch
                     {
                         udpClient.Close();
                     }
                 }
-                catch (Exception e)
+                catch
                 {
                     udpClient.Close();
                 }
             }
-            catch (Exception e)
+            catch
             {
             }
         }
