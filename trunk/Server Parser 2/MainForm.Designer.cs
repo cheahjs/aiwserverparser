@@ -386,7 +386,7 @@
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(28, 13);
             this.label8.TabIndex = 21;
-            this.label8.Text = "2.05";
+            this.label8.Text = "2.06";
             // 
             // btnSwitchDedi
             // 
