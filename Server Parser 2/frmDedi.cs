@@ -479,7 +479,7 @@ new Type[] {
                     playerstats.Remove(hostip);
                     playerstats.Add(hostip, playerstat2);
                     status = (Int32.Parse(getDictValue(dictionary, "sv_maxclients")) - numPlayers).ToString();
-                    setList(getDictValue(dictionary, "sv_hostname"), hostip, getDictValue(dictionary, "mapname"), numPlayers.ToString() + "/" + getDictValue(dictionary, "sv_maxclients"), getDictValue(dictionary, "g_gametype"), getDictValue(dictionary, "fs_game"), status);
+                    setList(removeQuakeColorCodes(getDictValue(dictionary, "sv_hostname")), hostip, getDictValue(dictionary, "mapname"), numPlayers.ToString() + "/" + getDictValue(dictionary, "sv_maxclients"), getDictValue(dictionary, "g_gametype"), getDictValue(dictionary, "fs_game"), status);
                     pingServer(hostip + ":" + port.ToString());
                 }
             }
@@ -726,6 +726,21 @@ new Type[] {
                     continue;
             }
             timer2.Enabled = false;
+        }
+
+        public string removeQuakeColorCodes(string remove)
+        {
+            string filteredout = "";
+            var array = remove.Split('^');
+            filteredout += array[0];
+            foreach (string part in array)
+            {
+                if (part.StartsWith("0") || part.StartsWith("1") || part.StartsWith("2") || part.StartsWith("3") || part.StartsWith("4") || part.StartsWith("5") || part.StartsWith("6") || part.StartsWith("7") || part.StartsWith("8") || part.StartsWith("9"))
+                    filteredout += part.Substring(1);
+                else
+                    filteredout += part;
+            }
+            return filteredout;
         }
     }
 }
