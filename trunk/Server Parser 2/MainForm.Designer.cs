@@ -386,10 +386,11 @@
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(28, 13);
             this.label8.TabIndex = 21;
-            this.label8.Text = "2.06";
+            this.label8.Text = "2.07";
             // 
             // btnSwitchDedi
             // 
+            this.btnSwitchDedi.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.btnSwitchDedi.Location = new System.Drawing.Point(399, 257);
             this.btnSwitchDedi.Name = "btnSwitchDedi";
             this.btnSwitchDedi.Size = new System.Drawing.Size(75, 23);
