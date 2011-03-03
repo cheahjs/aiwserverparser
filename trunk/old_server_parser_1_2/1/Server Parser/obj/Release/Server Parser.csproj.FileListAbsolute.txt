@@ -1,0 +1,12 @@
+D:\XAMPP2\xampplite\htdocs\localrepo\serverparser\trunk\ServerParser\1\Server Parser\obj\Release\ResolveAssemblyReference.cache
+D:\XAMPP2\xampplite\htdocs\localrepo\serverparser\trunk\ServerParser\1\Server Parser\obj\Release\Server_Parser.serverParserForm.resources
+D:\XAMPP2\xampplite\htdocs\localrepo\serverparser\trunk\ServerParser\1\Server Parser\obj\Release\Server_Parser.servercvar.resources
+D:\XAMPP2\xampplite\htdocs\localrepo\serverparser\trunk\ServerParser\1\Server Parser\obj\Release\Server_Parser.Properties.Resources.resources
+D:\XAMPP2\xampplite\htdocs\localrepo\serverparser\trunk\ServerParser\1\Server Parser\obj\Release\Server_Parser.serverstatsForm.resources
+D:\XAMPP2\xampplite\htdocs\localrepo\serverparser\trunk\ServerParser\1\Server Parser\obj\Release\Server Parser.csproj.GenerateResource.Cache
+D:\XAMPP2\xampplite\htdocs\localrepo\serverparser\trunk\ServerParser\1\Server Parser\bin\Release\Server Parser.exe
+D:\XAMPP2\xampplite\htdocs\localrepo\serverparser\trunk\ServerParser\1\Server Parser\bin\Release\Server Parser.pdb
+D:\XAMPP2\xampplite\htdocs\localrepo\serverparser\trunk\ServerParser\1\Server Parser\obj\Release\Server Parser.exe
+D:\XAMPP2\xampplite\htdocs\localrepo\serverparser\trunk\ServerParser\1\Server Parser\obj\Release\Server Parser.pdb
+D:\SVNs\publicaiwserverparser\1\Server Parser\obj\Release\Server Parser.exe
+D:\SVNs\publicaiwserverparser\1\Server Parser\obj\Release\Server Parser.pdb

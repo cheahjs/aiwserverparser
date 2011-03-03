@@ -1,0 +1,30 @@
+D:\XAMPP2\xampplite\htdocs\localrepo\serverparser\trunk\ServerParser\2\Server Parser 2\obj\Release\ResolveAssemblyReference.cache
+D:\XAMPP2\xampplite\htdocs\localrepo\serverparser\trunk\ServerParser\2\Server Parser 2\obj\Release\Server_Parser_2.mainForm.resources
+D:\XAMPP2\xampplite\htdocs\localrepo\serverparser\trunk\ServerParser\2\Server Parser 2\obj\Release\Server_Parser_2.Properties.Resources.resources
+D:\XAMPP2\xampplite\htdocs\localrepo\serverparser\trunk\ServerParser\2\Server Parser 2\obj\Release\Server Parser 2.csproj.GenerateResource.Cache
+D:\XAMPP2\xampplite\htdocs\localrepo\serverparser\trunk\ServerParser\2\Server Parser 2\bin\Release\Server Parser 2.exe
+D:\XAMPP2\xampplite\htdocs\localrepo\serverparser\trunk\ServerParser\2\Server Parser 2\bin\Release\Server Parser 2.pdb
+D:\XAMPP2\xampplite\htdocs\localrepo\serverparser\trunk\ServerParser\2\Server Parser 2\obj\Release\Server Parser 2.exe
+D:\XAMPP2\xampplite\htdocs\localrepo\serverparser\trunk\ServerParser\2\Server Parser 2\obj\Release\Server Parser 2.pdb
+D:\XAMPP2\xampplite\htdocs\localrepo\serverparser\trunk\ServerParser\2\Server Parser 2\obj\Release\Server_Parser_2.frmDvars.resources
+D:\XAMPP2\xampplite\htdocs\localrepo\serverparser\trunk\ServerParser\2\Server Parser 2\obj\Release\Server_Parser_2.frmDedi.resources
+D:\SVNs\publicaiwserverparser\Server Parser 2\obj\Release\Server Parser 2.exe
+D:\SVNs\publicaiwserverparser\Server Parser 2\obj\Release\Server Parser 2.pdb
+D:\SVNs\serverparser\trunk\ServerParser\2\Server Parser 2\obj\Release\Server Parser 2.exe
+D:\SVNs\serverparser\trunk\ServerParser\2\Server Parser 2\obj\Release\Server Parser 2.pdb
+D:\SVNs\serverparser\trunk\ServerParser\2\Server Parser 2\bin\Release\Server Parser 2.exe
+D:\SVNs\serverparser\trunk\ServerParser\2\Server Parser 2\bin\Release\Server Parser 2.pdb
+D:\SVNs\serverparser\trunk\ServerParser\2\Server Parser 2\obj\Release\ResolveAssemblyReference.cache
+D:\SVNs\serverparser\trunk\ServerParser\2\Server Parser 2\obj\Release\Server_Parser_2.frmDedi.resources
+D:\SVNs\serverparser\trunk\ServerParser\2\Server Parser 2\obj\Release\Server_Parser_2.frmDvars.resources
+D:\SVNs\serverparser\trunk\ServerParser\2\Server Parser 2\obj\Release\Server_Parser_2.mainForm.resources
+D:\SVNs\serverparser\trunk\ServerParser\2\Server Parser 2\obj\Release\Server_Parser_2.Properties.Resources.resources
+D:\SVNs\serverparser\trunk\ServerParser\2\Server Parser 2\obj\Release\Server Parser 2.csproj.GenerateResource.Cache
+D:\SVNs\publicaiwserverparser\Server Parser 2\bin\Release\Server Parser 2.exe
+D:\SVNs\publicaiwserverparser\Server Parser 2\bin\Release\Server Parser 2.pdb
+D:\SVNs\publicaiwserverparser\Server Parser 2\obj\Release\ResolveAssemblyReference.cache
+D:\SVNs\publicaiwserverparser\Server Parser 2\obj\Release\Server_Parser_2.frmDedi.resources
+D:\SVNs\publicaiwserverparser\Server Parser 2\obj\Release\Server_Parser_2.frmDvars.resources
+D:\SVNs\publicaiwserverparser\Server Parser 2\obj\Release\Server_Parser_2.mainForm.resources
+D:\SVNs\publicaiwserverparser\Server Parser 2\obj\Release\Server_Parser_2.Properties.Resources.resources
+D:\SVNs\publicaiwserverparser\Server Parser 2\obj\Release\Server Parser 2.csproj.GenerateResource.Cache
